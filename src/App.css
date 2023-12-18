@@ -1,38 +1,453 @@
-.App {
+
+::selection {
+  background-color: green;
+  color: white;
+
+}
+.rishav {
+  display: flex;
+  justify-content: space-around;
+
+}
+.abhishek{
+  display: flex;
+  justify-content: end;
+}
+.abhishek0{
+  display: flex;
+  
+}
+.abhishek1 img{
+
+  height: 649px;
+  width: 100%;
+}
+.abhishek2 {
+ 
+  justify-content: space-between;
+  list-style-type: none;
+  margin: 10% 30px;
+  padding: 0%;
+  background:#f6ecec;
+  width: 70%
+   
+}
+.abhishek3 {
+  margin: -15px 130px 0px 138px;
+  background-color: ghostwhite;
+  border-radius: 10px;
+  height: 83px;
+  position: relative;
+  z-index: 1;
+  box-shadow: 11px 20px 318px -12px;
+  text-align: justify;
+
+}
+
+.abhishek1 {
+  margin-top: -45px;
+  overflow: hidden;
+  position: relative;
+}
+.abhishek3 ul li{
+display: inline-block;
+margin: 25px 0px 0px 20px; 
+}
+.abhishek3 ul li a{
+  text-decoration: none;
+  color:black;
+}
+.abhishek3 ul li a:hover{
+  background-color: greenyellow;
+  color: white;
+}
+.ul a{
+  justify-content: space-between;
+  display: inline-block;
+}
+
+ .abhishek03 ul li{ 
+  display: inline-block;
+margin: 25px 0px 0px 20px;   
+}
+
+.abhishek4 {
+  background: #ffff;
+  width: 53%;
+  margin: 30px auto;
+  padding: 15px 30px 15px 30px;
+  border-radius: 50px;
+
+}
+
+.abhishek4 {
+  position: relative;
+  margin-top: -200px;
+  overflow: hidden;
+
+}
+.abhishek4 form{
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+}
+.abhishek4 form input{
+  display: block;
+  border: 0;
+  outline: none;
+  background: transparent;
+}
+.abhishek4 form button{
+  background: green;
+  width: 125px;
+  height: 60px;
+  border-radius: 50px;
+  border: 0;
+  outline:none;
+  cursor: pointer;
+}
+
+.abhishek5{
+  text-align: center;
+  margin: 100px;
+  font-weight: 500px;
+}
+.abhishek6 {
+  display: flex;
+  gap: 35px;
+  justify-content: center;
+
+}
+
+.abhishek6 img{
+
+
+  width: 150px;
+  background-color: gainsboro;
+}
+.abhishek7{
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+.abhishek8{
+
+  display: flex;
+  gap: 100px;
+  justify-content: center;
+}
+
+
+  .abhishek8 {
+    position: static;
+    margin-top: -45px;
+    overflow: hidden;
+    z-index: 1;
+}
+
+
+.abhishek8 {
+  grid-gap: 130px;
+  display: flex;
+  border-radius: 2px;
+  background-color: #ffff;
+}
+
+
+.star {
+  width: 260px;
+  border-radius: 5px;
+  height: 261px;
+  box-shadow: 1px 7px 16px #938f8f;
+  background-color: white;
+}
+    
+
+.abhishek8 button {
+  background: #d43f1d;
+  margin-block: 25px;
+  margin-left: 12px;
+  width: 233px;
+  height: 48px;
+  border-radius: 7px;
+  border: 0;
+  outline: none;
+  cursor: pointer;
+  color: wheat;
+}
+.abhishek8 hr{
+  width: 210px;
+}
+
+.abhishek11 {
+width: 100%;
+}
+
+.abhishek12 {
+  display: flex;
+  flex-wrap: nowrap;
+  justify-content: space-between;
+  background-color: lightgray;
+  grid-gap: 50px;
+  padding: 80px;
+  height: 211px;
+}
+
+
+  .abhishek12 hr {
+    color: green;
+    width: 239px;
+    margin-right: 196px;
+}
+
+.abhishek13 {
   text-align: center;
 }
 
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.abhishek13 u{
+  color: green
+
 }
 
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
-}
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
+.abhishek14{
   display: flex;
-  flex-direction: column;
-  align-items: center;
+  justify-content: space-between;
+}
+
+.abhishek14 img{
+  max-width: 100%;
+  width: auto;
+}
+ .abhishek15 {
+ 
+  text-align: center;
+
+
+ }
+ .abhishek15 h4{
+  color: green;
+ }
+
+ .abhishek16 {
+  display: flex;
+  justify-content: space-between;
+  margin: 20px;
+  padding: 80px;
+  grid-gap: 160px;
+}
+
+ .star1 {
+  width: 722px;
+  border-radius: 5px;
+  height: 261px;
+  box-shadow: 1px 7px 16px #938f8f;
+  background-color: white;
+}
+
+
+.abhishek17{
+  width: 722px;
+  border-radius: 5px;
+  height: 261px;
+  box-shadow: 1px 7px 16px #938f8f;
+  background-color: white;
+}
+
+.star2{
+ 
+}
+
+.abhishek18{
+  text-align: center;
+}
+
+.abhishek18 u{
+  color: green;
+}
+
+.abhishek19 {
+  grid-gap: 60px;
+  display: flex;
   justify-content: center;
-  font-size: calc(10px + 2vmin);
+
+}
+
+.abhishek199{
+  width: 390px;
+  border-radius: 3px;
+  height: 570px;
+  box-shadow: 1px 7px 16px #938f8f;
+  background-color: white;
+}
+
+.abhishek19 u{
+  color: green;
+}
+  
+
+
+
+  .abhishek20 {
+    width: 390px;
+    border-radius: 3px;
+    height: 570px;
+    box-shadow: 1px 7px 16px #938f8f;
+    background-color: white;
+}
+
+
+.abhishek21 {
+  width: 390px;
+    border-radius: 3px;
+    height: 570px;
+    box-shadow: 1px 7px 16px #938f8f;
+    background-color: white;
+}
+
+.abhishek22 img {
+  width: 100%;
+
+}
+.abhishek23 {
+  display: flex;
+  width: 400px;
+  border-radius: 1px;
+  height: 350px;
+  box-shadow: 1px 7px 16px #938f8f;
+  background-color: white;
+  margin-left: 873px;
+  padding: 50px;
+
+}
+
+.abhishek23 {
+  position: relative;
+  margin-top: -500px;
+  overflow: visible;
+  z-index: 1;
+
+}
+.abhishek23 span input {
+  height: 30px;
+  width: 343px;
+  border-radius: 4px;
+  box-sizing: border-box;
+  box-shadow: 1px 7px 16px #938f8f;
+}
+
+.abhishek23 button {
+  height: 50px;
+  width: 404px;
   color: white;
+  background-color: green;
+  border-radius: 4px;
+  box-shadow: 1px 7px 16px #938f8f;
+}
+  
+
+.abhishek24{
+  text-align: center;
 }
 
-.App-link {
-  color: #61dafb;
+.abhishek24 u{
+  color: green;
 }
 
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.abhishek25 {
+    background-color: black;
+    color: wheat;
+    
+    
+
+}
+
+.abhishek125 {
+  display: flex;
+  justify-content: center;
+}
+
+.abhishek126{
+  display: flex;
+  justify-content: center;
+}
+
+.abhishek26 ul {
+  display: flex;
+  justify-content: center;
+  grid-gap: 50px;
+  list-style-type: none;
+}
+.abhishek27 p {
+  display: flex;
+  justify-content: center;
+  margin: 0px;
+  padding-left: 500px;
+  width: 38%;
+  font-size: x-large;
+  text-align: -webkit-center;
+
+}
+
+
+.abhishek28 ul {
+  display: flex;
+  justify-content: center;
+  grid-gap: 90px;
+  list-style-type: none;
+  
+  
+}
+.abhishek28 ul li a{
+  text-decoration: none;
+  color:greenyellow;
+}
+.abhishek28 ul li a:hover{
+  background-color: rgb(187, 255, 0);
+  color: black;
+}
+ .abhishek28 ul a{
+  justify-content: space-between;
+  display: inline-block;
+}
+
+.abhishek29 {
+  display: flex;
+  justify-content: center;
+  grid-gap: 170px;
+}
+
+
+/* destination page */
+
+.rishi30 img {
+  width: 100%;
+}
+
+.rishi30 img{
+  margin-top: -45px;
+  overflow: hidden;
+  position: relative;
+
+}
+
+.rishi31 {
+    display: flex;
+    height: 46px;
+    margin: 10px;
+    width: 100%;
+}
+
+.rishi31 input {
+
+    width: 93%;
+    padding: 15px;
+    border-radius: 15px;
+
+}
+
+.rishi31 button {
+  width: 10%;
+  background-color: rgb(39 157 56);
+  border-radius: 15px;
 }
