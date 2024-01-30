@@ -1,12 +1,13 @@
 import React from 'react'
 
 
-function Blogs() {
+function Blogs () {
   return (
     <>
+    <div class="blog">
+    <h1>Blogs</h1>
+    </div>
     
-    
-    hloo blog
     
     
     

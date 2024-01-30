@@ -7,7 +7,7 @@ const Header = () => {
 
 
 
-  /* const getApiData = async() => {
+ /* const getApiData = async() => {
      const res = await fetch("https://fakestoreapi.com/products")
      const data =await res.json()
      setRishav(data)
@@ -21,7 +21,7 @@ const Header = () => {
  
     useEffect(()=>{
      getApiData()
-    },[]) */
+    },[]) 
 
 
 
@@ -70,7 +70,7 @@ const Header = () => {
 
 useEffect(() => {
   getApiData()
-}, [])
+}, [])*/
 
 
 return (
@@ -96,12 +96,13 @@ return (
     </div>
     <div className="abhishek3">
       <ul>
+        <button>
         <li>
           <a href="/destination">DESTINATION</a>
         </li>
         <li>
           <a href="stays">STAYS^</a>
-          <br></br>
+          
           <select>
             <option></option>
             <option>Cottages</option>
@@ -130,7 +131,10 @@ return (
         <li>
           <a href="register">SIGN</a>
         </li>
+       <li> <strong>BECOME A HOST</strong></li>
+       </button>
       </ul>
+      
 </div>
     
 

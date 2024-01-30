@@ -1,4 +1,4 @@
-import react from 'react'
+import react from "react";
 import logo from "../images/logo.png";
 import image1 from "../images/image1.png";
 import image2 from "../images/image2.png";
@@ -29,15 +29,17 @@ import Frame10 from "../images/Frame10.png";
 import Frame11 from "../images/Frame11.png";
 import Frame13 from "../images/Frame13.png";
 import logoend from "../images/logoend.png";
-  import Explore from '../components/Explore';
+import Explore from "../components/Explore";
 const Home = () => {
-    return(
-        <>
-      
+  return (
+    <>
       <div className="abhishek1">
         <img src={image1} />
         {/*<img src={image2} />
         <img src={image3} />*/}
+        </div>
+        <div className="text">explore</div>
+        
 
         <div className="abhishek4">
           <form>
@@ -75,13 +77,13 @@ const Home = () => {
             <button type="submit">Search</button>
           </form>
         </div>
-      </div>
+      
       <div className="abhishek5">
         <h1>Explore Stays</h1>
       </div>
       <div className="abhishek6">
-        <div >
-          < img src={Molecule1} />
+        <div>
+          <img src={Molecule1} />
           <h4>Cottege</h4>
         </div>
         <div>
@@ -103,16 +105,29 @@ const Home = () => {
       </div>
       <br />
       <br />
-
-<Explore/>
-    
-
-
+      <Explore />
       <br />
       <br />
       <br />
       <div>
         <img className="abhishek11" src={Frame12} />
+        <div className="abhishek11-box">
+          <br />
+          <img src={logo} />
+          <h1>
+            Exploring New
+            <br />
+            Destinations Everyday
+          </h1>
+          <hr />
+
+          <p>
+            Lorem mnbjhj bjhgdfkj nmbvhgjm,.-box xx vbcgfhf asbvcxc
+            ndsggh bfytfv jbftdfghj bjhgyufh mnhyuf -box xx vbcgfhf asbvufgkj mnbjhj bjhuy m
+          </p>
+          <br />
+         <u>OUR STORY</u>
+        </div>
       </div>
       <div className="abhishek12">
         <div>
@@ -343,7 +358,6 @@ const Home = () => {
                 <legend>Email*</legend>
                 <input type="email" placeholder="Enter your Email" />{" "}
               </fieldset>
-              
             </span>
             <br />
             <br />
@@ -354,7 +368,6 @@ const Home = () => {
       </div>
       <br />
       <br /> <br />
-
       <div className="abhishek24">
         <div>
           <br /> <br />
@@ -365,10 +378,8 @@ const Home = () => {
           <br />
         </div>
       </div>
-      
-       <Explore />
-     
-        </>
-    )
-}
-export default Home
+      <Explore />
+    </>
+  );
+};
+export default Home;

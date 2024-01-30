@@ -49,6 +49,12 @@
   overflow: hidden;
   position: relative;
 }
+.text{
+  
+  color:aqua;
+  
+}
+
 .abhishek3 ul li{
 display: inline-block;
 margin: 25px 0px 0px 20px; 
@@ -66,11 +72,16 @@ margin: 25px 0px 0px 20px;
   display: inline-block;
 }
 
- .abhishek03 ul li{ 
+.abhishek3 ul li {
   display: inline-block;
-margin: 25px 0px 0px 20px;   
+  margin: -23px 23px 0px 24px;
 }
 
+.abhishek3 button {
+  height: 45px;
+  border-radius: 10px;
+  margin-top: 21px;
+}
 .abhishek4 {
   background: #ffff;
   width: 53%;
@@ -183,6 +194,42 @@ margin: 25px 0px 0px 20px;
 .abhishek11 {
 width: 100%;
 }
+
+.abhishek11-box {
+  font-family: '-webkit-body';
+  text-align: center;
+  font-size: larger;
+}
+
+.abhishek11-box hr{
+  width: 480px;
+}
+
+.abhishek11-box {
+  display: flow;
+  width: 502px;
+  border-radius: 1px;
+  height: 457px;
+  /* box-shadow: 1px 7px 16px #938f8f; */
+  background-color: white;
+  padding: 20px;
+  margin-left: 112px;
+
+}
+.abhishek11-box {
+  position: relative;
+  margin-top: -555px;
+  overflow: visible;
+  z-index: 1;
+}
+
+  .abhishek11-box u{
+
+color:green;
+
+  }
+
+
 
 .abhishek12 {
   display: flex;
@@ -432,22 +479,72 @@ width: 100%;
 }
 
 .rishi31 {
-    display: flex;
-    height: 46px;
-    margin: 10px;
-    width: 100%;
+  justify-content: center;
+  display: flex;
+  height: 45px;
+  margin: 10px;
+  width: 100%;
 }
+
 
 .rishi31 input {
 
-    width: 93%;
+    width: 75%;
     padding: 15px;
-    border-radius: 15px;
+    background-color: #cabfbf;
+    
 
 }
 
 .rishi31 button {
-  width: 10%;
+  width: 15%;
   background-color: rgb(39 157 56);
-  border-radius: 15px;
+  
+}
+.test-cont {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 500px;
+}
+
+.test-cont-2 {
+  border: 1px solid red;
+  padding: 70px;
+  border-radius: 16px;
+}
+
+.test-cont-2 input {
+  padding: 10px;
+  border-radius: 5px;
+  border-color: aliceblue;
+}
+
+.test-cont-2 button {
+  width: 100%;
+  height: 36px;
+  border-radius: 6px;
+  background: chartreuse;
+  border-color: aqua;
+  color: white;
+  font-size: 20px;
+}
+
+/*----------------------blogs-------------------*/
+
+.blog {
+  text-align: center;
+}
+
+/* -------------resposibe in phone--------------- */
+@media only screen and (max-width: 600px){
+  .abhishek6
+ {
+  display: block;
+}
+
+.abhishek7 {
+  display: flex;
+  flex-wrap: wrap;
+}
 }
