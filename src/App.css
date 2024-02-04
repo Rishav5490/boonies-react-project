@@ -538,6 +538,52 @@ color:green;
 
 /* -------------resposibe in phone--------------- */
 @media only screen and (max-width: 600px){
+.rishav{
+  display: block;
+  text-align: center;
+  
+
+}
+.abhishek {
+  display: block;
+  
+}
+.abhishek0 {
+  display: block;
+}
+
+.abhishek1 img{
+  height:100%;
+  width:100%;
+}
+.abhishek3 {
+  margin: 0px;
+  padding: 0px;
+  height: auto;
+  background-color: #938f8f;
+
+}
+
+.abhishek3 ul button li{
+  
+  
+  width: 100%;
+  
+  
+}
+.abhishek3  button{
+  height: auto;
+  margin: 0px;
+  ;
+}
+.abhishek3  li{
+  display: block;
+
+}
+
+
+
+
   .abhishek6
  {
   display: block;
@@ -546,5 +592,58 @@ color:green;
 .abhishek7 {
   display: flex;
   flex-wrap: wrap;
+}
+.abhishek12{
+  display: block;
+}
+.abhishek19 {
+  
+   display: block;
+  
+}
+.abhishek23{
+  margin-top:0px;
+  margin-left:0px;
+  width: 200px;
+}
+.abhishek2223 span input{
+  width: 190px;
+
+}
+
+.abhishek23 button {
+  height: 35px;
+  width: 200px;
+}
+
+
+
+.abhishek8{
+  display: block;
+  margin-top: 20px;
+}
+
+.abhishek126{
+  display:block;
+  width: 151px;
+  padding-left: 100px;
+}
+
+.abhishek27 p{
+  display: block;
+  width: 350px;
+  padding:0px;
+}
+.abhishek28 ul {
+  display:block;
+  width: 270px;
+  text-align: center;
+  
+
+}
+.abhishek29{
+  display:block;
+  text-align: center;
+  height: 300px;
 }
 }

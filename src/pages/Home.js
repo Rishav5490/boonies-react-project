@@ -343,11 +343,11 @@ const Home = () => {
         <img src={Frame13} />
       </div>
       <div className="abhishek23">
-        <div>
+        <div className="abhishek223">
           <h1>Newsletter</h1>
 
-          <div>
-            <span>
+          <div className="abhishek2223"> 
+             <span>
               <fieldset>
                 <legend>Name*</legend>
                 <input type="text" placeholder="Enter your Name" />{" "}
@@ -360,10 +360,11 @@ const Home = () => {
               </fieldset>
             </span>
             <br />
-            <br />
-          </div>
+            <br /> 
+           
 
           <button>Subscribe</button>
+          </div>
         </div>
       </div>
       <br />
