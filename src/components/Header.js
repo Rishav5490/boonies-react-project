@@ -126,7 +126,7 @@ return (
           <a href="sreach bar">SREACH PLACE</a>
         </li>
         <li>
-          <a href="log in">LOGIN /</a>
+          <a href="/Login">LOGIN /</a>
         </li>
         <li>
           <a href="register">SIGN</a>

@@ -64,7 +64,7 @@ margin: 25px 0px 0px 20px;
   color:black;
 }
 .abhishek3 ul li a:hover{
-  background-color: greenyellow;
+  background-color: teal;
   color: white;
 }
 .ul a{
@@ -84,11 +84,10 @@ margin: 25px 0px 0px 20px;
 }
 .abhishek4 {
   background: #ffff;
-  width: 53%;
+  width: 70%;
   margin: 30px auto;
-  padding: 15px 30px 15px 30px;
-  border-radius: 50px;
-
+  padding: 10px 10px 10px 10px;
+  border-radius: 15px;
 }
 
 .abhishek4 {
@@ -97,8 +96,9 @@ margin: 25px 0px 0px 20px;
   overflow: hidden;
 
 }
-.abhishek4 form{
+.abhishek4 form {
   display: flex;
+  justify-content: space-evenly;
   align-items: center;
   flex-wrap: wrap;
 }
@@ -302,7 +302,7 @@ color:green;
 }
 
 .star2{
- 
+ color: yellow;
 }
 
 .abhishek18{
@@ -329,10 +329,56 @@ color:green;
 }
 
 .abhishek19 u{
-  color: green;
+  color: white;
+  background-color:green;
+}
+
+.box-19{
+    padding: 15px;
+    /* border: 2px solid gray; */
+    height: 120px;
+    width: 355px;
+}
+.box-19 p{
+  white-space: nowrap;
+  overflow: hidden;
+  text-overflow: ellipsis;
+}
+.box-19 button{
+  background-color: rgb(25, 125, 178);
+word-wrap: 10px;
 }
   
-
+.box-20{
+  padding: 15px;
+  /* border: 2px solid gray; */
+  height: 120px;
+  width: 355px;
+}
+.box-20 p{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.box-20 button{
+background-color: rgb(25, 125, 178);
+word-wrap: 10px;
+}
+.box-21{
+  padding: 15px;
+  /* border: 2px solid gray; */
+  height: 120px;
+  width: 355px;
+}
+.box-21 p{
+white-space: nowrap;
+overflow: hidden;
+text-overflow: ellipsis;
+}
+.box-21 button{
+background-color: rgb(25, 125, 178);
+word-wrap: 10px;
+}
 
 
   .abhishek20 {
@@ -391,7 +437,9 @@ color:green;
   border-radius: 4px;
   box-shadow: 1px 7px 16px #938f8f;
 }
-  
+  .abhishek2223 input{
+    border: none;
+  }
 
 .abhishek24{
   text-align: center;
@@ -447,7 +495,8 @@ color:green;
 }
 .abhishek28 ul li a{
   text-decoration: none;
-  color:greenyellow;
+  color:teal
+  ;
 }
 .abhishek28 ul li a:hover{
   background-color: rgb(187, 255, 0);
@@ -463,6 +512,32 @@ color:green;
   justify-content: center;
   grid-gap: 170px;
 }
+/* special attractions */
+.abhishek50{
+ 
+  padding: 40px;
+}
+
+.rk50-1{
+  text-align: center;
+}
+.rk50-1 h3{
+  font-size:x-large;
+}
+
+.abhishek51{
+  display: flex;
+  justify-content: center; 
+}
+.abhishek51 img{
+  width: 100%;
+}
+
+.pools {
+  display: grid;
+  margin: 0px 30px -30px 30px;
+}
+  
 
 
 /* destination page */

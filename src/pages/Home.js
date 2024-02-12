@@ -38,12 +38,12 @@ const Home = () => {
         {/*<img src={image2} />
         <img src={image3} />*/}
         </div>
-        <div className="text">explore</div>
+        
         
 
         <div className="abhishek4">
           <form>
-            <div>
+            {/* <div>
               <label>CheckIn</label>
               <input type="date" placeholder="Add Date" />
             </div>
@@ -69,9 +69,10 @@ const Home = () => {
             <div>
               <label>Guests</label>
               <input type="text" placeholder="Add Guests" />
-            </div>
+            </div> */}
             <div>
-              <label>Location</label>
+              {/* <label>Location</label> */}
+              <img src={location} />
               <input type="text" placeholder="Chail,HP" />
             </div>
             <button type="submit">Search</button>
@@ -284,6 +285,7 @@ const Home = () => {
               <h2>Exploring Paradise:The Best Places to Visit in Jibhi.</h2>
             </div>
             <hr />
+            <div className="box-19">
             <p>
               Nestled in the lap of the mesmerizing Himalayas, Jibhi is a hidden
               gem in Himachal Pradesh, India. This untouched paradise offers
@@ -292,7 +294,8 @@ const Home = () => {
             </p>
             <br />
             <br />
-            <u>Read More...</u>
+            <button><u>Read More...</u></button>
+            </div>
           </div>
         </div>
         <div className="abhishek20">
@@ -304,6 +307,8 @@ const Home = () => {
               </h2>
             </div>
             <hr />
+            <div className="box-20">
+
             <p>
               Nestled in the lap of the mesmerizing Himalayas, Jibhi is a hidden
               gem in Himachal Pradesh, India. This untouched paradise offers
@@ -312,7 +317,8 @@ const Home = () => {
             </p>
             <br />
             <br />
-            <u>Read More...</u>
+            <button><u>Read More...</u></button>
+            </div>
           </div>
         </div>
         <div className="abhishek21">
@@ -324,6 +330,8 @@ const Home = () => {
               </h2>
             </div>
             <hr />
+            <div className="box-21">
+
             <p>
               Nestled in the lap of the mesmerizing Himalayas, Jibhi is a hidden
               gem in Himachal Pradesh, India. This untouched paradise offers
@@ -332,7 +340,8 @@ const Home = () => {
             </p>
             <br />
             <br />
-            <u>Read More...</u>
+            <button><u>Read More...</u></button>
+            </div>
           </div>
         </div>
       </div>
@@ -379,6 +388,7 @@ const Home = () => {
           <br />
         </div>
       </div>
+      
       <Explore />
     </>
   );

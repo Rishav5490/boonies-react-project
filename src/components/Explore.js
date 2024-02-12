@@ -4,6 +4,11 @@ import Frame2 from "../images/Frame2.png";
 import Frame3 from "../images/Frame3.png";
 import Frame4 from "../images/Frame4.png";
 import location from "../images/location.png";
+import Frame50 from "../images/Frame50.png";
+import Frame51 from "../images/Frame51.png";
+import Frame52 from "../images/Frame52.png";
+import Frame53 from "../images/Frame53.png";
+
 import { FontAwesomeIcon } from "@fortawesome/react-fontawesome";
 import { faStar } from "@fortawesome/free-regular-svg-icons";
 const Explore = () => {
@@ -155,6 +160,29 @@ const Explore = () => {
             </div>
           </div>
         </div>
+      </div>
+      <div className="abhishek50">
+        <div className="rk50-1">
+          <br /> <br />
+          <h1>Special Attractions</h1>
+          <p>Feel It , Believe It</p><br />
+          <div>
+          <p><h3>The design and facilities of our hotel are also a key and focus for us. We have created a welcoming and inviting atmosphere, with comfortable furnishings.</h3></p>
+        </div>
+        </div>
+        <div className="abhishek51">
+        <div >
+          <img src={Frame53} />
+        </div>
+        <div className="pools">
+          <img src={Frame51} />
+          <img src={Frame52} />
+          </div>
+       
+        <div >
+          <img src={Frame53} />
+        </div>
+      </div>
       </div>
    </>
   )
