@@ -27,11 +27,39 @@ function Destination() {
       <button>Search</button> 
       <br />
       </div>
+
+      <div className="abhishek14">
+        <div >
+          <img src={Frame7} />
+        </div>
+        <div>
+          <img src={Frame6} />
+        </div>
+        <div>
+          <img src={Frame7} />
+        </div>
+        <div>
+          <img src={Frame6} />
+        </div>
+      </div>
+
      
       <div className="abhishek14">
         <div>
           <img src={Frame5} />
         </div>
+        <div className="destipools">
+          <img src={Frame6} />
+          <img src={Frame7} />
+        </div>
+        <div>
+          <img src={Frame8} />
+        </div>
+      </div>
+      <div className="abhishek14">
+        <div >
+          <img src={Frame7} />
+        </div>
         <div>
           <img src={Frame6} />
         </div>
@@ -39,19 +67,36 @@ function Destination() {
           <img src={Frame7} />
         </div>
         <div>
-          <img src={Frame8} />
+          <img src={Frame6} />
         </div>
       </div>
+
       
       <div className="abhishek14">
         <div>
-          <img src={Frame7} />
+          <img src={Frame5} />
         </div>
         <div>
           <img src={Frame8} />
         </div>
         <div>
           <img src={Frame5} />
+        </div>
+        <div>
+          <img src={Frame8} />
+        </div>
+      </div>
+
+     
+      <div className="abhishek14">
+        <div >
+          <img src={Frame7} />
+        </div>
+        <div>
+          <img src={Frame6} />
+        </div>
+        <div>
+          <img src={Frame7} />
         </div>
         <div>
           <img src={Frame6} />
@@ -59,14 +104,14 @@ function Destination() {
       </div>
 
       <div className="abhishek14">
-        <div>
+        <div >
           <img src={Frame6} />
         </div>
         <div>
-          <img src={Frame5} />
+          <img src={Frame7} />
         </div>
         <div>
-          <img src={Frame8} />
+          <img src={Frame6} />
         </div>
         <div>
           <img src={Frame7} />
@@ -75,28 +120,41 @@ function Destination() {
 
       <div className="abhishek14">
         <div>
-          <img src={Frame7} />
+          <img src={Frame5} />
         </div>
         <div>
           <img src={Frame8} />
         </div>
         <div>
-          <img src={Frame6} />
+          <img src={Frame5} />
         </div>
         <div>
-          <img src={Frame5} />
+          <img src={Frame8} />
         </div>
       </div>
 
       <div className="abhishek14">
         <div>
-          <img src={Frame8} />
+          <img src={Frame5} />
         </div>
-        <div>
+        <div className="destipools">
+          <img src={Frame6} />
           <img src={Frame7} />
         </div>
         <div>
-          <img src={Frame5} />
+          <img src={Frame8} />
+        </div>
+      </div>
+
+      <div className="abhishek14">
+        <div >
+          <img src={Frame7} />
+        </div>
+        <div>
+          <img src={Frame6} />
+        </div>
+        <div>
+          <img src={Frame7} />
         </div>
         <div>
           <img src={Frame6} />
@@ -104,8 +162,7 @@ function Destination() {
       </div>
 
 
-
-      
+         
 
     
     

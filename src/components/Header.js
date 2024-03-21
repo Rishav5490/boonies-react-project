@@ -129,7 +129,7 @@ return (
           <a href="/Login">LOGIN /</a>
         </li>
         <li>
-          <a href="register">SIGN</a>
+          <a href="/Sign">SIGN</a>
         </li>
        <li> <strong>BECOME A HOST</strong></li>
        </button>

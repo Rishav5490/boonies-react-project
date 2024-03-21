@@ -14,6 +14,11 @@
 
 
 }
+
+.log img {
+    height: 382px;
+    width: 260px;
+}
 .log h1 {
     display: flex;
     justify-content: center;

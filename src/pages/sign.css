@@ -1,0 +1,71 @@
+.sign{
+    display:flex;
+    justify-content: center;
+    border:1px solid gainsboro;
+
+    
+    border-radius: 1px;
+    height: 610px;
+    box-shadow: 1px 7px 16px #938f8f;
+    background-color: white;
+    padding: 50px;
+
+
+
+}
+.sign h1 {
+    display: flex;
+    justify-content: center;
+    color: teal;
+}
+
+
+    
+        
+.sign1 {
+    text-align: justify;
+    width: 500px;
+    border-radius: 9px;
+    height: 650px;
+    box-shadow: 1px 7px 16px #938f8f;
+    /* background-color: lightsteelblue; */
+    background-image:url(../images/pic.jpg);
+
+    
+}
+
+.sign1 label {
+    font-style: italic;
+    color: teal;
+    font-weight: bolder;
+}
+.sign1 input {
+    height: 30px;
+    width: 415px;
+    background-color:rgb(152, 147, 152);
+    border-radius: 8px;
+    margin-left: 40px;
+    cursor:not-allowed;
+
+}
+.sign1 button {
+    display: flex;
+    justify-content: center;
+    color: gainsboro;
+    margin: auto;
+    background-color: teal;
+    height: 30px;
+    width: 150px;
+    border-radius: 8px;
+    font-size: larger;
+}
+
+.sign1 p{
+    display: flex;
+    justify-content: center;
+    margin:auto;
+    font-size: larger;
+}
+.sign1 strong{
+    color: teal;
+}

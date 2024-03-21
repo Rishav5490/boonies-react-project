@@ -19,7 +19,7 @@
 }
 .abhishek1 img{
 
-  height: 649px;
+  height: 600px;
   width: 100%;
 }
 .abhishek2 {
@@ -120,8 +120,8 @@ margin: 25px 0px 0px 20px;
 
 .abhishek5{
   text-align: center;
-  margin: 100px;
-  font-weight: 500px;
+  margin: 55px;
+  
 }
 .abhishek6 {
   display: flex;
@@ -266,6 +266,8 @@ color:green;
   max-width: 100%;
   width: auto;
 }
+
+
  .abhishek15 {
  
   text-align: center;
@@ -603,6 +605,11 @@ word-wrap: 10px;
   border-color: aqua;
   color: white;
   font-size: 20px;
+}
+
+.destipools{
+  display: grid;
+  margin: 0px 20px -20px 20px;
 }
 
 /*----------------------blogs-------------------*/

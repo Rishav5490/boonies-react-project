@@ -35,15 +35,15 @@ const Home = () => {
     <>
       <div className="abhishek1">
         <img src={image1} />
-        {/*<img src={image2} />
-        <img src={image3} />*/}
+        {/* <img src={image2} />
+        <img src={image3} /> */}
         </div>
         
         
 
         <div className="abhishek4">
           <form>
-            {/* <div>
+            <div>
               <label>CheckIn</label>
               <input type="date" placeholder="Add Date" />
             </div>
@@ -69,15 +69,16 @@ const Home = () => {
             <div>
               <label>Guests</label>
               <input type="text" placeholder="Add Guests" />
-            </div> */}
+            </div> 
             <div>
-              {/* <label>Location</label> */}
+              <label>Location</label>
               <img src={location} />
               <input type="text" placeholder="Chail,HP" />
             </div>
             <button type="submit">Search</button>
           </form>
         </div>
+        <br />
       
       <div className="abhishek5">
         <h1>Explore Stays</h1>
