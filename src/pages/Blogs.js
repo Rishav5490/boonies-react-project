@@ -14,14 +14,14 @@ function Blogs() {
             <br />
             <marquee>
               <strong>
-                **********___________________BLOGERRRRRR____________________**********
+               **********___________________BLOGERRRRRR____________________**********
               </strong>
             </marquee>
             <br />
             <hr />
             <h1>Blogs</h1>
             <br />
-            <u>View All</u>
+            <u> <a href="https://www.twitter.com/" alt="twitter" >View All </a></u>
             <br />
             <br />
           </div>

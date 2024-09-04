@@ -6,6 +6,7 @@ import Home from "./pages/Home";
 import Destination from "./pages/Destination";
 import Contact from "./pages/Contact";
 import Blogs from "./pages/Blogs";
+import ourStory from "./pages/ourStory";
 import Login from "./pages/Login";
 import Sign from "./pages/Sign";
 import Layout from "./components/Layout";
@@ -17,9 +18,10 @@ function App() {
       <Router>
         <Routes>
           <Route path="/" element={<Home/>}/>
-          <Route path="/contact" element={<Contact/>}/>
+          <Route path="/Contact" element={<Contact/>}/>
           <Route path="/destination" element={<Destination/>} />
-          <Route path="/blogs" element={<Blogs/>} />  
+          <Route path="/blogs" element={<Blogs/>} />
+          <Route path="/ourStory" element={<ourStory/>} /> 
           <Route path="/login" element={<Login/>} />
           <Route path="/Sign" element={<Sign/>} />
           <Route path="/test" element={<Test/>} />  

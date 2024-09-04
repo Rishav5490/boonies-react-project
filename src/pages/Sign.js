@@ -1,13 +1,14 @@
 import React, {useState} from 'react';
 import "./sign.css";
+import logoend from "../images/logoend.png";
 
 const Sign = () => {
     const [firstName, setFirstName] = useState('');
     const [lastName, setLastName] = useState('');
-    const [username, setUsername] = useState('');
+    // const [username, setUsername] = useState('');
     const [email, setEmail] = useState('');
     const [password, setPassword] = useState('');
-    const [phone, setPhone] = useState('');
+    // const [phone, setPhone] = useState('');
     const [errors, setErrors] = useState({});
 
     const handleSubmit = (e) => {
@@ -16,10 +17,10 @@ const Sign = () => {
         const userData = {
             firstName,
             lastName,
-            username,
+            // username,
             email,
             password,
-            phone,
+            // phone,
         };
 
          console.log('Registration data:', userData);
@@ -29,10 +30,10 @@ const Sign = () => {
         const newErrors = {};
         if (!firstName.trim()) newErrors.firstName = 'First name is required';
         if (!lastName.trim()) newErrors.lastName = 'Last name is required';
-        if (!username.trim()) newErrors.username = 'username is required';
+        // if (!username.trim()) newErrors.username = 'username is required';
         if (!email.trim()) newErrors.email = 'Email is required';
         if (!password.trim()) newErrors.password = 'password is required';
-        if (!phone.trim()) newErrors.phone = 'phone no is required';
+        // if (!phone.trim()) newErrors.phone = 'phone no is required';
 
         if(Object.keys(newErrors) .length > 0){
             setErrors(newErrors);
@@ -47,6 +48,10 @@ const Sign = () => {
     <>
 
 <div className="sign">
+    <div>
+        <img src={logoend} />
+
+    </div>
     
       <div className="sign1"> 
       <h1>SIGN IN</h1>
@@ -65,12 +70,12 @@ const Sign = () => {
           </label>
       <br />
                <br />
-          <label>Username:<br />
+          {/* <label>Username:<br />
           <input type="text"  placeholder="username"  value={username}onChange={(e) => setUsername(e.target.value)} />
           {errors.username && <span>{errors.username}</span>}
           </label>
                <br />
-               <br />
+               <br /> */}
 
                <label>Email:<br />
           <input type="email" placeholder='gmail'  value={email}onChange={(e) => setEmail(e.target.value)}/>
@@ -87,14 +92,18 @@ const Sign = () => {
                <br />
                <br />
 
-               <label>Phone:<br />
+               {/* <label>Phone:<br />
           <input type="tel" placeholder='mobile number'  value={phone}onChange={(e) => setPhone(e.target.value)}/>
           {errors.phone && <span>{errors.phone}</span>}
           </label>
       <br />
-               <br />
+               <br /> */}
                <button onClick={handleSubmit}>submit</button><br />
                </form>
+
+               </div>
+               <div>
+        <img src={logoend} />
 
                </div>
                </div>

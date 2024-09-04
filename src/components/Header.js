@@ -3,11 +3,11 @@ import logo from '../images/logo.png'
 import phone from '../images/phone.png';
 import location from '../images/location.png';
 const Header = () => {
-  // const [rishav,setRishav]=useState([])
+  //  const [rishav,setRishav]=useState([])
 
 
 
- /* const getApiData = async() => {
+ { /*const getApiData = async() => {
      const res = await fetch("https://fakestoreapi.com/products")
      const data =await res.json()
      setRishav(data)
@@ -70,7 +70,7 @@ const Header = () => {
 
 useEffect(() => {
   getApiData()
-}, [])*/
+}, [])*/}
 
 
 return (
@@ -116,10 +116,10 @@ return (
           <a href="/blogs">BLOGS</a>
         </li>
         <li>
-          <a href="our story">OUR STORY</a>
+          <a href="/ourStory">OUR STORY</a>
         </li>
         <li>
-          <a href="/contact">CONTACT US</a>
+          <a href="/Contact">CONTACT US</a>
         </li>
       
         <li>
@@ -150,4 +150,4 @@ return (
 )
 }
 
-export default Header
+export default Header;
